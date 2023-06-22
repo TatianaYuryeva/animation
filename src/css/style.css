@@ -1,0 +1,64 @@
+body {
+  background-color: #f8fafb;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: #ffffff;
+
+}
+
+.btn {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+
+  color: #ffffff;
+
+  background-color: #0171e8;
+  border: none;
+  border-radius: 12px;
+}
+
+.collapsible {
+  max-height: 200px;
+  background: #fff;
+  border: #f8fafb 1px solid;  
+  border-radius: 8px;
+
+  animation: show 1s;
+
+  overflow: hidden;
+}
+
+.collapsible-text {
+  padding: 12px;
+
+  font-size: 16px;
+}
+
+.collapsed {
+  animation: close 1s;
+}
+
+@keyframes show {
+  from {
+    max-height: 0px;
+  }
+
+  to {
+    max-height: 300px;
+  }
+}
+
+@keyframes close {
+  from {
+    max-height: 300px;
+  }
+
+  to {
+    max-height: 0px;
+  }
+}
