@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/44hhxfxkskagk9aj?svg=true)](https://ci.appveyor.com/project/TatianaYuryeva/animation)
+[![Build status](https://ci.appveyor.com/api/projects/status/dsboch50p447stox?svg=true)](https://ci.appveyor.com/project/TatianaYuryeva/animation)
 
 ![CI](https://github.com/TatianaYuryeva/animation/actions/workflows/web.yml/badge.svg)
 
